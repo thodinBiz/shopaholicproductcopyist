@@ -1,0 +1,6 @@
+plugin:
+    name: 'thodin.shopaholicproductcopyist::lang.plugin.name'
+    description: 'thodin.shopaholicproductcopyist::lang.plugin.description'
+    author: Thodin
+    icon: oc-icon-adjust
+    homepage: 'https://thodin.ru'

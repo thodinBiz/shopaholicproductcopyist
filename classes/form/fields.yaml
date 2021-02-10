@@ -1,0 +1,10 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    category:
+        label: rainlab.sitemap::lang.item.reference
+        type: dropdown
+        cssClass: input-sidebar-control

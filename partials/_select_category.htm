@@ -1,0 +1,16 @@
+<select
+    class="form-control custom-select" style="width: 100%"
+    id="copyist-category-select"
+    data-handler="onGetCategoryList"
+    data-request-url="<?= Backend::url('thodin/shopaholicproductcopyist/products') ?>"
+    data-minimum-input-length="1"
+    data-ajax--delay="300"
+    data-request-data=""
+>
+
+    <?php
+foreach ($categories as $id=>$name){
+  echo '<option value="'.$id.'">'.$name.'</option>';
+    }
+    ?>
+</select>
